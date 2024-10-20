@@ -27,6 +27,7 @@ jobs:
         uses: bitshifted/git-auto-semver@v1
         # https://github.com/marketplace/actions/git-automatic-semantic-versioning
 
+        # https://github.com/marketplace/actions/git-automatic-semantic-versioning
       - name: Use version
         run: echo "Calculated version: v${{ steps.calculate-version.outputs.version-string }}"
 
